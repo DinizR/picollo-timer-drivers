@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: mock-timer
+Bundle-SymbolicName: mock-timer
+Bundle-Version: 1.1.0
+Bundle-Activator: org.picollo.timer.mock.activator.MockTimerActivator
+Import-Package: org.osgi.framework,org.slf4j,org.cobra.timer.api,org.picollo.config.api,org.cobra.timer.model,org.quartz,org.quartz.impl,
+                org.quartz.impl.matchers,ch.qos.logback.classic
+Driver-Type: Custom

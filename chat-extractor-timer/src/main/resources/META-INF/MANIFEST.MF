@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: chat-extractor-timer
+Bundle-SymbolicName: chat-extractor-timer
+Bundle-Version: 1.5.1
+Bundle-Activator: nz.co.spark.extractor.activator.ChatExtractorTimerActivator
+Import-Package: org.osgi.framework,org.slf4j,org.w3c.dom,javax.xml.transform,org.xml.sax,javax.xml.parsers,javax.xml.transform.dom,javax.xml.transform.stream,javax.xml.bind,org.cobra.timer.api,
+                org.cobra.timer.model,oracle.jdbc,oracle.jdbc.aq,oracle.jdbc.babelfish,oracle.jdbc.connector,oracle.jdbc.dcn,oracle.jdbc.diagnostics,oracle.jdbc.driver,
+                oracle.jdbc.internal,oracle.jdbc.oci,oracle.jdbc.oracore,oracle.jdbc.pool,org.h2,org.xml.sax.helpers,
+                org.cobra.config.api,org.quartz,org.cobra.driver,org.springframework.stereotype,javax.annotation,org.quartz.impl,org.quartz.impl.matchers,ch.qos.logback.classic,
+                com.genesyslab.platform.applicationblocks.com.objects,com.genesyslab.platform.commons.collections,com.genesyslab.platform.commons.protocol,com.genesyslab.platform.configuration.protocol,
+                com.genesyslab.platform.contacts.protocol,com.genesyslab.platform.contacts.protocol.contactserver,com.genesyslab.platform.contacts.protocol.contactserver.events,
+                com.genesyslab.platform.contacts.protocol.contactserver.requests,com.genesyslab.platform.applicationblocks.warmstandby,com.genesyslab.platform.applicationblocks.com,
+                com.genesyslab.platform.configuration.protocol.types,com.genesyslab.platform.applicationblocks.com.queries,com.genesyslab.platform.standby,com.genesyslab.platform.standby.exceptions
+Driver-Type: Custom

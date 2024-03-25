@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.cobra.timers</groupId>
+    <artifactId>timer-drivers</artifactId>
+    <packaging>pom</packaging>
+    <version>1.3.0</version>
+
+    <modules>
+        <module>mock-timer</module>
+        <module>bonoloto-timer</module>
+        <module>sql-utils</module>
+        <module>primitiva-timer</module>
+        <module>euromilhoes-timer</module>
+        <module>elgordo-timer</module>
+        <module>lototurf-timer</module>
+        <module>lotto-plus1-timer</module>
+        <module>sa-lotto-timer</module>
+        <module>deutsche-lotto-timer</module>
+        <module>ireland-lotto-timer</module>
+        <module>nz-lotto-timer</module>
+    </modules>
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.picollo</groupId>
+            <artifactId>driver-interface</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.concierge</groupId>
+            <artifactId>org.eclipse.concierge</artifactId>
+            <version>5.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.picollo.timers</groupId>
+            <artifactId>timer-supplier-interface</artifactId>
+            <version>1.3.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.picollo</groupId>
+            <artifactId>configurable-interface</artifactId>
+            <version>1.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.24</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>

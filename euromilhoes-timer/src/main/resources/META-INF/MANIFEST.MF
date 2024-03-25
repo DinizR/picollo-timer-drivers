@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: euromilhoes-timer
+Bundle-SymbolicName: euromilhoes-timer
+Bundle-Version: 1.0.0
+Bundle-Activator: com.megaball.timer.LoaderTimerActivator
+Import-Package: org.osgi.framework,org.slf4j,org.cobra.timer.api,
+                org.cobra.timer.model,org.quartz,org.quartz.impl,
+                org.picollo.config.api,org.quartz.impl.matchers,
+                ch.qos.logback.classic,org.postgresql,javax.net.ssl
+Driver-Type: Custom
